@@ -71,7 +71,7 @@ namespace event_tutorial
  
             private void ListChanged(ArrayList sender, EventArgs e)
             {
-               // foreach (Family f in sender)                  This block works correctlly, but outputs every time it is called data about every element in array.
+               // foreach (Family f in sender)                  This block works correctlly, but outputs ,every time it is called, data about every element in array.
                // {
                //     Console.WriteLine(f.name);
                //     Console.WriteLine(f.age);
