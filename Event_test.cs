@@ -71,14 +71,14 @@ namespace event_tutorial
  
             private void ListChanged(ArrayList sender, EventArgs e)
             {
-               // foreach (Family f in sender)                  Этот кусок рабочий, но он выводит каждый раз данные о всех добавленных в массив элементах.
+               // foreach (Family f in sender)                  This block works correctlly, but outputs every time it is called data about every element in array.
                // {
                //     Console.WriteLine(f.name);
                //     Console.WriteLine(f.age);
                // }
 
                 
-              //  Console.WriteLine(sender[0].);              Вот здесь нужно реализовать вывод в консоль инфы о члене семьи. Метод вызывается при добавлениие элемента в массив.
+              //  Console.WriteLine(sender[0].);              Here I try to realize output only the data of the element that is added to array.
                 
                 Console.ReadLine();
             }
